@@ -1,0 +1,32 @@
+{
+    "pipeline": [
+        "C:/Users/kawamurashohei/B4_semi/QGIS_DEM_practice/tengun_BeforeDosya/08NF2383.las",
+        {
+            "filename":"C:/Users/kawamurashohei/B4_semi/GeoTiff_practice/pra05_data/src05/Red.tif",
+            "gdaldriver":"GTiff",
+            "output_type":"mean",
+            "resolution":"0.2",
+            "type": "writers.gdal",
+            "dimension":"Red",
+            "nodata":"0.0"
+        },
+        {
+            "filename":"C:/Users/kawamurashohei/B4_semi/GeoTiff_practice/pra05_data/src05/Green.tif",
+            "gdaldriver":"GTiff",
+            "output_type":"mean",
+            "resolution":"0.2",
+            "type": "writers.gdal",
+            "dimension":"Green",
+            "nodata":"0.0"
+        },
+        {
+            "filename":"C:/Users/kawamurashohei/B4_semi/GeoTiff_practice/pra05_data/src05/Blue.tif",
+            "gdaldriver":"GTiff",
+            "output_type":"mean",
+            "resolution":"0.2",
+            "type": "writers.gdal",
+            "dimension":"Blue",
+            "nodata":"0.0"
+        }
+    ]
+}
