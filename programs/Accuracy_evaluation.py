@@ -42,7 +42,7 @@ def main():
     TP_buildings = nLabels_TP - 1
     FN_buildings = higai_buildings - TP_buildings
     FP_buildings = myanswer_buildings - TP_buildings
-    TN_buildings = all_buildings - (TP_buildings + FN_buildings + TP_buildings)
+    TN_buildings = all_buildings - (TP_buildings + FN_buildings + FP_buildings)
     tekigo = TP_buildings / (TP_buildings + FP_buildings)
     saigen = TP_buildings / (TP_buildings + FN_buildings)
     F_num = 2 * (tekigo * saigen) / (tekigo + saigen)
